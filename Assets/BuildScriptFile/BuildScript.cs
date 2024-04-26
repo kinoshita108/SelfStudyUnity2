@@ -22,7 +22,7 @@ public class BuildScript : MonoBehaviour
     public static void AutoBuild()
     {
         // ビルドするシーンのパスの配列を作成
-        string[] scenePaths = new string[]
+        /*string[] scenePaths = new string[]
         {
             "Assets/Scenes/SampleScene.unity",
             "Assets/Scenes/Title.unity",
@@ -35,6 +35,6 @@ public class BuildScript : MonoBehaviour
         buildPlayerOptions.target = BuildTarget.StandaloneWindows64; // ビルドターゲットを指定
 
         // ビルドを実行
-        BuildPipeline.BuildPlayer(buildPlayerOptions);
+        BuildPipeline.BuildPlayer(buildPlayerOptions);*/
     }
 }
